@@ -6,7 +6,7 @@
     <color name="navigationbar_backcolor">#37474F</color>
 
     <!-- Colors for Custom Button -->
-    <color name="btnColor">#37474F</color>
-    <color name="textColor">#ffffff</color>
+    <color name="btnBackgroundColor">#37474F</color>
+    <color name="btnTextColor">#ffffff</color>
 
 </resources>

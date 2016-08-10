@@ -14,11 +14,9 @@
     <style name="myButtonTheme">
         <item name="android:layout_width">@dimen/button_width</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignLeft">@id/textView</item>
-        <item name="android:layout_alignRight">@id/textView</item>
         <item name="android:layout_margin">@dimen/button_layout_margin</item>
 
-        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
         <item name="android:typeface">monospace</item>
 
         <item name="android:background">@drawable/button_custom</item>

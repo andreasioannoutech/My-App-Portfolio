@@ -9,12 +9,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     // Creating variables
-    Button btnP1;
-    Button btnP2;
-    Button btnP3;
-    Button btnP4;
-    Button btnP5;
-    Button btnP6;
+    Button btnShowPopularMovies;
+    Button btnShowStockHawk;
+    Button btnShowBuildItBigger;
+    Button btnShowMakeYourAppMat;
+    Button btnShowGoUbiquitous;
+    Button btnShowCapstone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,54 +22,54 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // onCreate of the Activity, instantiating button variables with their respective view.
-        btnP1 = (Button) findViewById(R.id.btnP1);
-        btnP2 = (Button) findViewById(R.id.btnP2);
-        btnP3 = (Button) findViewById(R.id.btnP3);
-        btnP4 = (Button) findViewById(R.id.btnP4);
-        btnP5 = (Button) findViewById(R.id.btnP5);
-        btnP6 = (Button) findViewById(R.id.btnP6);
+        btnShowPopularMovies = (Button) findViewById(R.id.btnShowPopularMovies);
+        btnShowStockHawk = (Button) findViewById(R.id.btnShowStockHawk);
+        btnShowBuildItBigger = (Button) findViewById(R.id.btnShowBuildItBigger);
+        btnShowMakeYourAppMat = (Button) findViewById(R.id.btnShowMakeYourAppMat);
+        btnShowGoUbiquitous = (Button) findViewById(R.id.btnShowGoUbiquitous);
+        btnShowCapstone = (Button) findViewById(R.id.btnShowCapstone);
 
         // Configuring the onClick Listeners for each Button.
         // Configure the pop up message for each button when is clicked.
-        btnP1.setOnClickListener(new View.OnClickListener() {
+        btnShowPopularMovies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Popular Movies app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowPopularMovies), Toast.LENGTH_LONG).show();
             }
         });
 
-        btnP2.setOnClickListener(new View.OnClickListener() {
+        btnShowStockHawk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Stock Hawk app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowStockHawk), Toast.LENGTH_LONG).show();
             }
         });
 
-        btnP3.setOnClickListener(new View.OnClickListener() {
+        btnShowBuildItBigger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Build It Bigger app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowBuildItBigger), Toast.LENGTH_LONG).show();
             }
         });
 
-        btnP4.setOnClickListener(new View.OnClickListener() {
+        btnShowMakeYourAppMat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Make Your App Material app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowMakeYourAppMat), Toast.LENGTH_LONG).show();
             }
         });
 
-        btnP5.setOnClickListener(new View.OnClickListener() {
+        btnShowGoUbiquitous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Go Ubiquitous app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowGoUbiquitous), Toast.LENGTH_LONG).show();
             }
         });
 
-        btnP6.setOnClickListener(new View.OnClickListener() {
+        btnShowCapstone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "This button will launch my Capstone app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(), getString(R.string.msgBtnShowCapstone), Toast.LENGTH_LONG).show();
             }
         });
     }

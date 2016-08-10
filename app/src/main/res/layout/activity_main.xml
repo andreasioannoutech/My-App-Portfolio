@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,53 +7,47 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.kikkos.myappportfolio.MainActivity">
+    tools:context="com.kikkos.myappportfolio.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/txtView"
-        android:id="@+id/textView"
+        android:text="@string/textTxtMainActivityTitle"
+        android:id="@+id/txtMainActivityTitle"
         android:layout_marginTop="28dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/btnColor"/>
+        android:textColor="@color/btnBackgroundColor"/>
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP1"
-        android:id="@+id/btnP1"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/textBtnShowPopularMovies"
+        android:id="@+id/btnShowPopularMovies" />
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP2"
-        android:id="@+id/btnP2"
-        android:layout_below="@+id/btnP1" />
+        android:text="@string/textBtnShowStockHawk"
+        android:id="@+id/btnShowStockHawk" />
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP3"
-        android:id="@+id/btnP3"
-        android:layout_below="@+id/btnP2" />
+        android:text="@string/textBtnShowBuildItBigger"
+        android:id="@+id/btnShowBuildItBigger" />
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP4"
-        android:id="@+id/btnP4"
-        android:layout_below="@+id/btnP3" />
+        android:text="@string/textBtnShowMakeYourAppMat"
+        android:id="@+id/btnShowMakeYourAppMat" />
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP5"
-        android:id="@+id/btnP5"
-        android:layout_below="@+id/btnP4" />
+        android:text="@string/textBtnShowGoUbiquitous"
+        android:id="@+id/btnShowGoUbiquitous" />
 
     <Button
         style="@style/myButtonTheme"
-        android:text="@string/btnP6"
-        android:id="@+id/btnP6"
-        android:layout_below="@+id/btnP5" />
-</RelativeLayout>
+        android:text="@string/textBtnShowCapstone"
+        android:id="@+id/btnShowCapstone" />
+
+</LinearLayout>

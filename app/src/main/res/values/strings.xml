@@ -1,11 +1,20 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
-    <string name="txtView">My Nanodegree Apps!</string>
-    <string name="btnP1">POPULAR MOVIES</string>
-    <string name="btnP2">STOCK HAWK</string>
-    <string name="btnP3">BUILD IT BIGGER</string>
-    <string name="btnP4">MAKE YOUR APP MATERIAL</string>
-    <string name="btnP5">GO UBIQUITOUS</string>
-    <string name="btnP6">CAPSTONE</string>
+    <string name="textTxtMainActivityTitle">My Nanodegree Apps!</string>
+    <string name="textBtnShowPopularMovies">POPULAR MOVIES</string>
+    <string name="textBtnShowStockHawk">STOCK HAWK</string>
+    <string name="textBtnShowBuildItBigger">BUILD IT BIGGER</string>
+    <string name="textBtnShowMakeYourAppMat">MAKE YOUR APP MATERIAL</string>
+    <string name="textBtnShowGoUbiquitous">GO UBIQUITOUS</string>
+    <string name="textBtnShowCapstone">CAPSTONE</string>
+
+    <!-- Toast Method Messages from Buttons in Main Activity -->
+
+    <string name="msgBtnShowPopularMovies">This button will launch my Popular Movies app!</string>
+    <string name="msgBtnShowStockHawk">This button will launch my Stock Hawk app!</string>
+    <string name="msgBtnShowBuildItBigger">This button will launch my Build It Bigger app!</string>
+    <string name="msgBtnShowMakeYourAppMat">This button will launch my Make Your App Material app!</string>
+    <string name="msgBtnShowGoUbiquitous">This button will launch my Go Ubiquitous app!</string>
+    <string name="msgBtnShowCapstone">This button will launch my Capstone app!</string>
 
 </resources>
