@@ -10,11 +10,13 @@
 
     <!-- Toast Method Messages from Buttons in Main Activity -->
 
-    <string name="msgBtnShowPopularMovies">This button will launch my Popular Movies app!</string>
-    <string name="msgBtnShowStockHawk">This button will launch my Stock Hawk app!</string>
-    <string name="msgBtnShowBuildItBigger">This button will launch my Build It Bigger app!</string>
-    <string name="msgBtnShowMakeYourAppMat">This button will launch my Make Your App Material app!</string>
-    <string name="msgBtnShowGoUbiquitous">This button will launch my Go Ubiquitous app!</string>
-    <string name="msgBtnShowCapstone">This button will launch my Capstone app!</string>
+    <string name="msgBtnShowPopularMovies">Launching Popular Movies app!</string>
+    <string name="msgBtnShowStockHawk">Launching Stock Hawk app!</string>
+    <string name="msgBtnShowBuildItBigger">Launching Build It Bigger app!</string>
+    <string name="msgBtnShowMakeYourAppMat">Launching Make Your App Material app!</string>
+    <string name="msgBtnShowGoUbiquitous">Launching Go Ubiquitous app!</string>
+    <string name="msgBtnShowCapstone">Launching Capstone app!</string>
+
+    <string name="errorMsgAppNotFound">Application was not found on your phone. Please install the app and try again.</string>
 
 </resources>
