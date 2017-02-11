@@ -50,4 +50,18 @@
         android:text="@string/textBtnShowCapstone"
         android:id="@+id/btnShowCapstone"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textTxtMainActivitySubSection"
+        android:id="@+id/txtMainActivitySubSection"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/btnBackgroundColor"/>
+
+    <Button
+        style="@style/myButtonTheme"
+        android:text="@string/textBtnShowSunshine"
+        android:id="@+id/btnShowSunshine"/>
+
 </LinearLayout>

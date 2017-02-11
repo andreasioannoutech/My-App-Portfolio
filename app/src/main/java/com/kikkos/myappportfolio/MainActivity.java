@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnShowMakeYourAppMat;
     Button btnShowGoUbiquitous;
     Button btnShowCapstone;
+    Button btnShowSunshine;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btnShowMakeYourAppMat = (Button) findViewById(R.id.btnShowMakeYourAppMat);
         btnShowGoUbiquitous = (Button) findViewById(R.id.btnShowGoUbiquitous);
         btnShowCapstone = (Button) findViewById(R.id.btnShowCapstone);
+        btnShowSunshine = (Button) findViewById(R.id.btnShowSunshine);
 
         // Configuring the onClick Listeners for each Button.
         // Configure the intent and a pop up message for each button when is clicked.
@@ -104,6 +106,19 @@ public class MainActivity extends AppCompatActivity {
                 Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.gcna.dinevenues");
                 if (launchIntent != null) {
                     Toast.makeText(getApplicationContext(), getString(R.string.msgBtnShowCapstone), Toast.LENGTH_SHORT).show();
+                    startActivity(launchIntent);
+                } else {
+                    Toast.makeText(getApplicationContext(), getString(R.string.errorMsgAppNotFound), Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btnShowSunshine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.kikkos.sunshine");
+                if (launchIntent != null) {
+                    Toast.makeText(getApplicationContext(), getString(R.string.msgBtnShowSunshine), Toast.LENGTH_SHORT).show();
                     startActivity(launchIntent);
                 } else {
                     Toast.makeText(getApplicationContext(), getString(R.string.errorMsgAppNotFound), Toast.LENGTH_SHORT).show();

@@ -1,12 +1,14 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
     <string name="textTxtMainActivityTitle">My Nanodegree Apps!</string>
+    <string name="textTxtMainActivitySubSection">Supporting Exercises</string>
     <string name="textBtnShowPopularMovies">POPULAR MOVIES</string>
     <string name="textBtnShowStockHawk">STOCK HAWK</string>
     <string name="textBtnShowBuildItBigger">BUILD IT BIGGER</string>
     <string name="textBtnShowMakeYourAppMat">MAKE YOUR APP MATERIAL</string>
     <string name="textBtnShowGoUbiquitous">GO UBIQUITOUS</string>
     <string name="textBtnShowCapstone">CAPSTONE</string>
+    <string name="textBtnShowSunshine">SUNSHINE</string>
 
     <!-- Toast Method Messages from Buttons in Main Activity -->
 
@@ -16,6 +18,7 @@
     <string name="msgBtnShowMakeYourAppMat">Launching Make Your App Material app!</string>
     <string name="msgBtnShowGoUbiquitous">Launching Go Ubiquitous app!</string>
     <string name="msgBtnShowCapstone">Launching Capstone app!</string>
+    <string name="msgBtnShowSunshine">Launching Sunshine app!</string>
 
     <string name="errorMsgAppNotFound">Application was not found on your phone. Please install the app and try again.</string>
 
