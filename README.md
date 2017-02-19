@@ -12,12 +12,18 @@ Install the app
 ### Required
 
 All of the bellow listed apps are required in order for the buttons click:
-1.https://github.com/andreasioannoutech/myMovieNews
-2.https://github.com/andreasioannoutech/StockHawk
-3.https://github.com/andreasioannoutech/BuiltItBigger
-4.https://github.com/andreasioannoutech/xyzreader
-5.https://github.com/andreasioannoutech/SunshineWear
-6.https://play.google.com/store/apps/details?id=com.gcna.dinevenues&hl=en_GB
+1. Link
+https://github.com/andreasioannoutech/myMovieNews
+2.
+https://github.com/andreasioannoutech/StockHawk
+3.
+https://github.com/andreasioannoutech/BuiltItBigger
+4.
+https://github.com/andreasioannoutech/xyzreader
+5.
+https://github.com/andreasioannoutech/SunshineWear
+6.
+https://play.google.com/store/apps/details?id=com.gcna.dinevenues&hl=en_GB
 
 if you do not wish to install all of the above then you will just get the list.
 
