@@ -11,6 +11,9 @@ Install the app
 
 ### Required
 All of the bellow listed apps are required in order for the buttons click:
+1. test
+2. test
+3. test
 1. https://github.com/andreasioannoutech/myMovieNews
 2. https://github.com/andreasioannoutech/StockHawk
 3. https://github.com/andreasioannoutech/BuiltItBigger
