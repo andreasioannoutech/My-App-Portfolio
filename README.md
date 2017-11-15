@@ -1,6 +1,6 @@
 # My App Portfolio Android app
-Udacity Android Developer Nanodegree project which is essentially a list of all of my student projects in an android app.
-The project uses 1 basic activity and implements ButterKnife library.
+An android app that lists all my student projects through Udacity Android Developer Nanodegree and provides an easy access to them as well (click to open).
+The project has one activity and implements ButterKnife library.
 
 ## Getting Started
 1. Download a copy of this project
